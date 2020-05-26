@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<title>Windows</title>
+	<style>
+		  .test
+		{ background:red;
+		color:white
+		}
+		.test2
+		{ font-size:30px;
+		color:black
+		}
+		</style>
+</head>
+<body>
+	<header>
+      <nav>
+        <ol> <font size="14">
+			<img src="windows.png" alt="windows" length="300" width="300">
+			 </font>
+            </ol>
+      </nav>
+    </header>
+	<h1>Windows:</h1>
+	<img src="windows architecture.png" style="float: right" alt="windows architecture" lenght="400" width="400">
+	<p class="test2">Windows NT architecture, a set of operating systems produced and sold by Microsoft, is a multi-layered design consisting of two main components, user mode and kernel mode. It is a proactive multi-tasking operating system that is designed to work with single-processor and multi-processor (SMP) computers. To handle I / O requests, they use packet I / O, which uses asynchronous I / O request packets (IRPs) and asynchronous I / O. Beginning with Windows XP, Microsoft began making 64-bit versions of Windows available. Before that, there were only 32-bit versions of these operating systems.</p>
+	
+	<p class="test2">User mode programs and subsystems are limited in terms of system resources that they can access, while kernel mode has unrestricted access to system memory and external devices. Kernel mode in Windows NT has full access to the computer's system and hardware resources. The Windows NT kernel is a hybrid kernel; Architecture includes a simple kernel, hardware abstraction layer (HAL), drivers, and a set of services (collectively called Executive), all in kernel mode.</p>
+	<p class="test2">User mode in Windows NT consists of subsystems capable of passing I / O requests to device drivers in the appropriate kernel mode using I / O Manager. The Windows NT user mode layer consists of "environment subsystems", which run applications written for many different types of operating systems, and "integrated subsystem", which performs system specific functions on behalf of environment subsystems. Kernel mode prevents user mode services and applications from accessing critical operating system areas that they should not have access to.</p>
+	<p class="test2">Executive interfaces deal with all user-mode subsystems with I / O, object management, security, and process management. The kernel is located between the hardware abstraction layer and the executive to provide multi-processor synchronization, thread, transmission, and interrupt schedule, trap processing, and exceptions. The kernel is also responsible for configuring device drivers upon boot. Kernel mode drivers exist in three levels: top-level drivers, medium drivers, and low-level drivers. The Windows Driver Model (WDM) is located in the middle layer and is primarily designed to be binary and compatibility between source between Windows 98 and Windows 2000. The lower level drivers are either old Windows NT device drivers that directly control the device or can Be plug and play (PnP) device bus.</p>
+
+</body>
+</html>
